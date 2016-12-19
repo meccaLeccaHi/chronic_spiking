@@ -2,7 +2,7 @@
 ## Analysis pipeline for single-unit recordings of face-cells in macaque brain.  
 
 These scripts perform unsupervised spike detection and sorting using using wavelets and super-paramagnetic clustering performed using:  
-_**Wave_clus* (http://www.vis.caltech.edu/~rodri/Wave_clus/Wave_clus_home.htm **/** https://github.com/csn-le/wave_clus)*_
+**_Wave_clus_** *(https://github.com/csn-le/wave_clus)*
 
 ## Processing scripts
 
@@ -50,31 +50,31 @@ Decoder function for radTan project look-up-table of stimuli.
 Uses sphere function to represent neural responses projected in multi-dimensonal space.
 
 #### insp_dat_fine.m
-_Usage: insp_dat_fine(paths,monkey,suffix)_
-Cursory analysis script [faceLearning project]
+_Usage: insp_dat_fine(paths,monkey,suffix)_  
+Cursory analysis script (plots rasters and spike-density functions).
 
 #### insp_dat_identTraj.m
-_Usage: insp_dat_fine(paths,monkey,suffix)_
-Performs analysis w.r.t. the identity levels of stimuli [faceLearning project]
+_Usage: insp_dat_fine(paths,monkey,suffix)_  
+Performs analysis with respect to the identity levels of stimuli.
 
 ### Population-level
 
 ####insp_dat_identTrajPop.m
-_Usage: insp_dat_identTrajPop(paths,monkey,suffix)_
-Itiratively reads files containing all neurons for each monkey and makes population plots [faceLearning project]
+_Usage: insp_dat_identTrajPop(paths,monkey,suffix)_  
+Itiratively reads files containing all neurons for each monkey and makes population plots.
 
 ### _Radial-tangential project_
 
 #### insp_dat_rtTraj.m
-_Usage: insp_dat_rtTraj(paths,monkey,suffix)_
-Performs analysis w.r.t. the identity levels of stimuli [radTan project]
-Includes comparisons across both radial and tangential axes
+_Usage: insp_dat_rtTraj(paths,monkey,suffix)_  
+Performs analysis w.r.t. the identity levels of stimuli
+Includes comparisons across both radial and tangential axes.
 
 ### Population-level
 
-####insp_dat_rtPop.m
-_Usage: Usage: insp_dat_identTraj(paths,monkey,suffix)_
-Itiratively reads files containing all neurons for each monkey and makes population plots [faceLearning project]
+#### insp_dat_rtPop.m
+_Usage: Usage: insp_dat_identTraj(paths,monkey,suffix)_  
+Itiratively reads files containing all neurons for each monkey and makes population plots.
 
 
 
