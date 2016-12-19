@@ -74,8 +74,11 @@ Includes comparisons across both radial and tangential axes.
 
 #### insp_dat_rtPop.m
 _Usage: Usage: insp_dat_identTraj(paths,monkey,suffix)_  
-Itiratively reads files containing all neurons for each monkey and makes population plots.
+Itiratively reads files containing all neurons for each monkey and makes population plots.  
 
-
+**Created by Dr Adam Jones  
+Laboratory of Neurophysiology,  
+National Institutes of Health,  
+Bethesda, MD, USA** 
 
 
