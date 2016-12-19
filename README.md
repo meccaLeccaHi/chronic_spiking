@@ -11,7 +11,7 @@ _Magnum opus_ script for running entire processing/analysis pipeline (mostly for
 
 #### setFilePath.m
 _Usage: [paths, monkeys] = setFilePath(proj)_  
-setting up appropriate paths, depending on the project specified and the machine being used.
+Sets up appropriate paths, depending on the project specified and the local machine.
 
 #### buildDatabase.m
 _Usage: buildDatabase(header,paths,varargin)_  
@@ -60,7 +60,7 @@ Performs analysis with respect to the identity levels of stimuli.
 #### insp_dat_identTrajPop.m  
 
 _Usage: insp_dat_identTrajPop(paths,monkey,suffix)_  
-Itiratively reads files containing all neurons for each monkey and makes population plots.
+Iteratively reads files containing all neurons for each monkey and makes population plots.
 
 ### _Radial-tangential project_
 
@@ -71,7 +71,7 @@ Includes comparisons across both radial and tangential axes.
 
 #### insp_dat_rtPop.m  
 _Usage: Usage: insp_dat_identTraj(paths,monkey,suffix)_  
-Itiratively reads files containing all neurons for each monkey and makes population plots.  
+Iteratively reads files containing all neurons for each monkey and makes population plots.  
 
 **Created by Dr Adam Jones  
 Laboratory of Neurophysiology,  
