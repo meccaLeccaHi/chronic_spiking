@@ -57,9 +57,8 @@ Cursory analysis script (plots rasters and spike-density functions).
 _Usage: insp_dat_fine(paths,monkey,suffix)_  
 Performs analysis with respect to the identity levels of stimuli.
 
-### Population-level
+####insp_dat_identTrajPop.m   _(Population-level)_
 
-####insp_dat_identTrajPop.m
 _Usage: insp_dat_identTrajPop(paths,monkey,suffix)_  
 Itiratively reads files containing all neurons for each monkey and makes population plots.
 
@@ -70,9 +69,7 @@ _Usage: insp_dat_rtTraj(paths,monkey,suffix)_
 Performs analysis w.r.t. the identity levels of stimuli
 Includes comparisons across both radial and tangential axes.
 
-### Population-level
-
-#### insp_dat_rtPop.m
+#### insp_dat_rtPop.m   _(Population-level)_
 _Usage: Usage: insp_dat_identTraj(paths,monkey,suffix)_  
 Itiratively reads files containing all neurons for each monkey and makes population plots.  
 
