@@ -1,5 +1,5 @@
 # chronic_spiking
-## Analysis pipeline for single-unit recordings of face-cells in macaque brain.  
+#### Matlab scripts for analysis of single-unit recordings of face-cells in the macaque brain.  
 
 These scripts perform unsupervised spike detection and sorting using using wavelets and super-paramagnetic clustering performed using:  
 **_Wave_clus_** *(https://github.com/csn-le/wave_clus)*
